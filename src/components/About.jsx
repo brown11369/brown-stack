@@ -1,4 +1,3 @@
-
 function About() {
     return (
         <div id="about" className="slide">
