@@ -14,17 +14,14 @@ function Home() {
                 Seeking to leverage broad development experience and hands-on technical expertise in a challenging
                 role as a Full-stack Developer.</p>
             <div className="tech">
-                <i className="fab fa-html5 icn"></i>
+            <i className="fab fa-html5 icn"></i>
                 <i className="fab fa-css3 icn"></i>
                 <i className="fab fa-js icn"></i>
                 <i className="fab fa-node icn"></i>
-                <i className="fab fa-vuejs icn"></i>
                 <i className="fab fa-react icn"></i>
-                <i className="fab fa-bootstrap icn"></i>
-                <i className="fab fa-sass icn"></i>
                 <i className="fab fa-git-alt icn"></i>
-                <i className="fab fa-github icn"></i>
-                <i className="fab fa-linux icn"></i>
+                <i className="fab fa-github icn"></i> 
+                <i className="fab fa-bootstrap icn"></i>
             </div>
             <div className="list">
                 <a href="#resume"><button className="btn"><i className="fa-solid fa-memo"></i>

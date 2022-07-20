@@ -13,9 +13,13 @@ function Header() {
                         <li className="nav_link"><NavLink to="/work">Work</NavLink></li>
                         <li className="nav_link"><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
-                    <i className="fab fa-github-square"></i>
-                    <i className="fab fa-linkedin"></i>
-                    <i className="fas fa-globe"></i>
+                    
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/brown11369?tab=repositories"><i class="fab fa-github-square"></i></a>
+                   
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/barun-kumar-234162225/"><i class="fab fa-linkedin"></i></a>
+                    
+                    <a target="_blank" rel="noopener noreferrer" href="https://brownbug.in/"><i class="fas fa-globe"></i></a>
+                    
                 </nav>
             </header>
         </>
