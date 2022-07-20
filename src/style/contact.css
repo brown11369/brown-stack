@@ -1,0 +1,73 @@
+.bar-box {
+    padding: 10px 20px;
+}
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////// */
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 2.5rem;
+}
+
+.form-control {
+    width: 80%;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+    transition: 1.5s;
+}
+
+input:hover {
+    box-shadow: 0 0 25px #1fb8fc;
+}
+
+textarea:hover {
+    box-shadow: 0 0 25px #1fb8fc;
+}
+
+.inp {
+    text-indent: 15px;
+    border-radius: 10px;
+}
+
+
+
+/* mobile css */
+
+@media (min-width:320px) and (max-width:480px) {
+    .row {
+        margin-left: 0px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .form-group .btn{
+        width: auto;
+        height: auto;
+        padding: 0px 100px;
+    }
+}

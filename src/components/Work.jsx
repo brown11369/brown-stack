@@ -1,3 +1,5 @@
+import "../style/work.css"
+
 function Work(){
     return (
         <div id="work" className="slide">

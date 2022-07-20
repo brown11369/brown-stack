@@ -1,3 +1,5 @@
+import "../style/contact.css"
+
 function Contact() {
     return (
         <div id="contact" className="slide">

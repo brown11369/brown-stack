@@ -1,3 +1,5 @@
+import "../style/about.css"
+
 function About() {
     return (
         <div id="about" className="slide">

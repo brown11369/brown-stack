@@ -1,3 +1,5 @@
+import "../style/skill.css"
+
 function Skills(){
     return (
         <div id="sklill" className="slide">
