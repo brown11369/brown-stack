@@ -25,7 +25,7 @@ function Header() {
     return (
         <>
             <header className="header">
-                <div className="wrap"><div class="logo"><a href="/home"><img src="./public/assets/images/profile.jpg" className="profile" alt="profile"/></a></div><div className="ham" onClick={()=>{
+                <div className="wrap"><div class="logo"><a href="/home"><img src="/assets/images/profile.jpg" className="profile" alt="profile"/></a></div><div className="ham" onClick={()=>{
                     toggle()
                 }}><span className="ham1" ref={bar}></span><span className="ham2"></span><span className="ham3 " ref={bar}></span></div></div>
                 <nav className="nav" ref={bar}>

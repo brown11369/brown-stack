@@ -6,31 +6,31 @@ function Work(){
                 <h2 className="detl">My Work</h2>
                 <div className="card-box">
                     <div className="card">
-                        <img src="./public/assets/images/pro1.jpg" className="proj-img" alt="project-1"/>
+                        <img src="/assets/images/pro1.jpg" className="proj-img" alt="project-1"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro2.jpg" className="proj-img" alt="project-2"/>
+                        <img src="/assets/images/pro2.jpg" className="proj-img" alt="project-2"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro3.jpg"className="proj-img" alt="project-3"/>
+                        <img src="/assets/images/pro3.jpg"className="proj-img" alt="project-3"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro4.jpg" className="proj-img" alt="project-4"/>
+                        <img src="/assets/images/pro4.jpg" className="proj-img" alt="project-4"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro5.jpg" className="proj-img" alt="project-5"/>
+                        <img src="/assets/images/pro5.jpg" className="proj-img" alt="project-5"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro6.jpg" className="proj-img" alt="project-6"/>
+                        <img src="/assets/images/pro6.jpg" className="proj-img" alt="project-6"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro7.jpg" className="proj-img" alt="project-7"/>
+                        <img src="/assets/images/pro7.jpg" className="proj-img" alt="project-7"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro8.jpg" className="proj-img" alt="project-8"/>
+                        <img src="/assets/images/pro8.jpg" className="proj-img" alt="project-8"/>
                     </div>
                     <div className="card">
-                        <img src="./public/assets/images/pro9.jpg" className="proj-img" alt="project-9"/>
+                        <img src="/assets/images/pro9.jpg" className="proj-img" alt="project-9"/>
                     </div>
                 </div>
             </div>
