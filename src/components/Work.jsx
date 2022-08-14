@@ -2,7 +2,7 @@ import "../style/work.css"
 
 function Work(){
     return (
-        <div id="work" className="slide">
+        <div className="slide">
                 <h2 className="detl">My Work</h2>
                 <div className="card-box">
                     <div className="card">

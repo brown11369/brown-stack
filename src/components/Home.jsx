@@ -2,7 +2,7 @@ import "../style/home.css"
 
 function Home() {
     return (
-        <div id="home" className="slide home-slide">
+        <div className="slide home-slide">
             <h2 className="detl"> Hi,<br></br>I'm Brown,<br></br></h2>
             <div className="ani">
                 <div className="anio">

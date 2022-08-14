@@ -21,7 +21,7 @@ function Skills(){
                             Magento, Keystone.js and others) .
                         </p>
                     </div>
-                    <div className="animat bar-box">
+                    <div className="ani-box bar-box">
                         <h3 className="bar-text">HTML</h3>
                         <div className="bar-border">
                             <div className="bar html-bar"></div>

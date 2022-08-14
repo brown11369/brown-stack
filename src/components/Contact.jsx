@@ -2,7 +2,7 @@ import "../style/contact.css"
 
 function Contact() {
     return (
-        <div id="contact" className="slide">
+        <div className="slide">
 
             <h2 className="detl">Contact Me</h2>
             <div className="about-box">
@@ -22,7 +22,7 @@ function Contact() {
                         Magento, Keystone.js and others) .
                     </p>
                 </div>
-                <div className="animat bar-box">
+                <div className="ani-box bar-box">
                     <form method="POST" id="contactForm" name="contactForm">
                         <div className="row">
                             <div className="col-md-12">
