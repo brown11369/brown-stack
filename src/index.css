@@ -76,6 +76,12 @@ html {
     display: flex;
     flex-direction: column;
   }
+
+  .slide {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
   .detl {
     color: #fff;
     font-size: 35px;
@@ -99,37 +105,4 @@ html {
   .ani-box {
     width: 100%;
   }
-  span.ham1 {
-    height: 3px;
-    width: 15px;
-    background-color: #ffff;
-    align-self: flex-start;
-}
-span.ham2 {
-  height: 3px;
-  width: 30px;
-  background-color: #ffff;
-}
-span.ham3 {
-  height: 3px;
-  width: 15px;
-  background-color: #ffff;
-}
-.ham1.active {
-  align-self: flex-end;
-}
-.ham3.active {
-  align-self: flex-start;
-}
-
-.nav {
-  display: none;
-}
-
-
-.nav.active {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
 }

@@ -53,8 +53,6 @@
 
 @media (min-width:320px) and (max-width:480px) {
     .header {
-        /* position: sticky; */
-        /* top: 0; */
         width: auto;
         height: auto;
     }
@@ -120,5 +118,4 @@
     .ham3.active{
         align-self: flex-start;
     }
-
 }

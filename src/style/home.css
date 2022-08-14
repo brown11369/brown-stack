@@ -75,12 +75,14 @@
 /* mobile css */
 
 @media (min-width:320px) and (max-width:480px) {
-    .home-slide {
-        padding: 25px;
+
+    .tech{
+        text-align: center;
     }
 
     .list {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .ani {

@@ -8,9 +8,7 @@
 /* mobile css */
 
 @media (min-width:320px) and (max-width:480px) {
-    .slide {
-        padding: 25px;
-    }
+    
     .about-img {
         width: 80%;
         margin-left: 25px;
