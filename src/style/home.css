@@ -87,11 +87,11 @@
 
     .ani {
         display: flex;
-        height: 35px;
+        height: 45px;
         overflow: hidden;
         font-size: 30px;
         color: white;
-        line-height: 0px;
+        line-height: 35px;
         gap: 10px;
     }
 }

@@ -4,17 +4,22 @@ import { useRef, useState } from "react";
 
 function Header() {
 
+    const ham1 = useRef(null);
+    const ham3 = useRef(null);
     const bar = useRef(null);
     const [togo, setTogo]= useState(true);
 
     const toggle = () => {
-        const span = bar.current;
         if(togo===true){
-            span.className = "nav active";
+            ham1.current.className = "ham1 active"
+            ham3.current.className = "ham3 active"
+            bar.current.className = "nav active";
             setTogo(false);
         }
         else{
-            span.className = "nav";
+            ham1.current.className = "ham1"
+            ham3.current.className = "ham3"
+            bar.current.className = "nav";
             setTogo(true);
         }
         
@@ -27,7 +32,7 @@ function Header() {
             <header className="header">
                 <div className="wrap"><div class="logo"><a href="/home"><img src="/assets/images/profile.jpg" className="profile" alt="profile"/></a></div><div className="ham" onClick={()=>{
                     toggle()
-                }}><span className="ham1" ref={bar}></span><span className="ham2"></span><span className="ham3 " ref={bar}></span></div></div>
+                }}><span className="ham1" ref={ham1}></span><span className="ham2"></span><span className="ham3 " ref={ham3}></span></div></div>
                 <nav className="nav" ref={bar}>
                     <ul className="navigation">
                         <li className="nav_link"><NavLink to="/home">Home</NavLink></li>
