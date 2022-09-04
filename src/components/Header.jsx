@@ -30,7 +30,7 @@ function Header() {
     return (
         <>
             <header className="header">
-                <div className="wrap"><div class="logo"><a href="/home"><img src="/assets/images/profile.jpg" className="profile" alt="profile"/></a></div><div className="ham" onClick={()=>{
+                <div className="wrap"><div className="logo"><a href="/home"><img src="/assets/images/profile.jpg" className="profile" alt="profile"/></a></div><div className="ham" onClick={()=>{
                     toggle()
                 }}><span className="ham1" ref={ham1}></span><span className="ham2"></span><span className="ham3 " ref={ham3}></span></div></div>
                 <nav className="nav" ref={bar}>
@@ -42,11 +42,11 @@ function Header() {
                         <li className="nav_link"><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                     <div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/brown11369?tab=repositories"><i class="fab fa-github-square"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/brown11369?tab=repositories"><i className="fab fa-github-square"></i></a>
 
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/barun-kumar-234162225/"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/barun-kumar-234162225/"><i className="fab fa-linkedin"></i></a>
 
-                    <a target="_blank" rel="noopener noreferrer" href="https://brownbug.in/"><i class="fas fa-globe"></i></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://brownbug.in/"><i className="fas fa-globe"></i></a>
                     </div>
 
                 </nav>
