@@ -1,4 +1,4 @@
-import "../style/error.css"
+import "./error.css"
 function Error() {
     return (
         <div className="slide home-slide">

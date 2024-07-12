@@ -1,4 +1,4 @@
-import "../style/work.css"
+import "./work.css"
 
 function Work(){
     return (
@@ -24,7 +24,7 @@ function Work(){
                         
                     </div>
                     <div className="card">
-                    <a target="_blank" rel="noopener noreferrer" href="https://brown11369.github.io/projects/martfury/"><img src="/assets/images/pro6.jpg" className="proj-img" alt="project-6"/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://shokumo-fry.onrender.com/"><img src="/assets/images/pro6.jpg" className="proj-img" alt="project-6"/></a>
                         
                     </div>
                     <div className="card">

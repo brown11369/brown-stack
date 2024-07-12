@@ -1,9 +1,9 @@
-import "../style/home.css"
+import "./home.css"
 
 function Home() {
     return (
         <div className="slide home-slide">
-            <h2 className="detl"> Hi,<br></br>I'm Brown,<br></br></h2>
+            <h2 className="detl"> Hi,<br></br>I'm Barun,<br></br></h2>
             <div className="ani">
                 <div className="anio">
                     <div className="ani1">Front-End</div>
