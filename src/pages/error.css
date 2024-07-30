@@ -1,0 +1,14 @@
+.errorBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.error{
+    color: white;
+}
+.ercon{
+    color: #1fb8fc;
+    padding-right: 10px;
+    font-size: 3rem;
+}

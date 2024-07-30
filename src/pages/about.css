@@ -1,0 +1,17 @@
+.about-img {
+    width: 80%;
+    margin-left: 60px;
+}
+
+
+
+/* mobile css */
+
+@media (min-width:320px) and (max-width:480px) {
+    
+    .about-img {
+        width: 80%;
+        margin-left: 25px;
+    }
+
+}
