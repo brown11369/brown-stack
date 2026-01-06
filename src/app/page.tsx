@@ -53,7 +53,7 @@ const Home: React.FC = () => {
         <FaLinux />
       </div>
       <div className="button-group">
-        <a href="#resume" className="btn">
+        <a href="/files/resume.pdf" target="__blank" className="btn">
           <CiMemoPad /> Resume
         </a>
         <a href="mailto:brown11369@gmail.com" className="btn">

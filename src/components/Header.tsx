@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaGithub, FaGlobeAfrica, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 import { useTheme } from "../context/ThemeContext";
 import Image from "next/image";
 
@@ -88,8 +88,13 @@ export default function Header() {
             <FaLinkedin />
           </a>
 
-          <a href="#" aria-label="Website">
-            <FaGlobeAfrica />
+          <a
+            href="https://web.whatsapp.com/send/?phone=919870895374&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsappSquare />
           </a>
         </div>
       </nav>

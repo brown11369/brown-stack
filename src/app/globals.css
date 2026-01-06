@@ -1,3 +1,4 @@
+@import "tailwindcss";
 :root {
   /* Color System */
   --color-primary: #1fb8fc;
