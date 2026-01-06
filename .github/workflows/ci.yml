@@ -25,10 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      - name: Use Node.js 24
+      - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "22"
 
       # installs dependencies (npm ci can also be used if you do not have a package-lock.json)
       - name: Install dependencies
