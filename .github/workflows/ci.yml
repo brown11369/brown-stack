@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 
 # Controls when the workflow will run
@@ -22,24 +20,29 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # 1️⃣ Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js with caching
       - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: "npm"
 
-      # installs dependencies (npm ci can also be used if you do not have a package-lock.json)
+      # 3️⃣ installs dependencies (npm ci can also be used if you do not have a package-lock.json)
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
-      # Runs a single command using the runners shell
-      - name: Run eslint
+      # 4️⃣ Run ESLint (fail on warnings)
+      - name: Run ESLint
         run: npm run lint -- --max-warnings=0
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # # 5️⃣ Run tests (optional, remove if you don't have any)
+      # - name: Run tests
+      #   run: npm test
+
+      # 6️⃣ Deploy to Vercel only if lint/tests pass
+      - name: Deploy to Vercel
+        if: success()
+        run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
