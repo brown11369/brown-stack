@@ -4,9 +4,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: ["main"]
+    branches: ["main", "dev"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "dev"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,5 +44,5 @@ jobs:
 
       # 6️⃣ Deploy to Vercel only if lint/tests pass
       - name: Deploy to Vercel
-        if: success()
+        if: github.ref == 'refs/heads/main' && success()
         run: curl -X POST ${{ secrets.VERCEL_DEPLOY_HOOK }}
