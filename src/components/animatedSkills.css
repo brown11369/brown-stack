@@ -1,0 +1,55 @@
+/* Floating Skills */
+.floating-skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.floating-skill {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 217, 255, 0.1);
+  border: 1px solid rgba(0, 217, 255, 0.3);
+  color: var(--color-primary);
+  cursor: pointer;
+
+  animation: float 4s ease-in-out infinite, glowPulse 3s ease-in-out infinite;
+}
+
+/* Soft floating effect */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Glow pulse */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 10px var(--color-primary-light);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--color-primary-light);
+  }
+  100% {
+    box-shadow: 0 0 10px var(--color-primary-light);
+  }
+}
+
+/* Hover Effect */
+.floating-skill:hover {
+  transform: scale(1.12);
+  transition: 0.3s ease;
+  background: rgba(0, 217, 255, 0.25);
+}
