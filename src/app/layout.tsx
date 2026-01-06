@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import ThemeWrapper from "../components/ThemeWrapper";
 import { ThemeProvider } from "../context/ThemeContext";
 import "./globals.css";
