@@ -164,16 +164,13 @@ p,
 /* Layout */
 .page-wrapper {
   display: flex;
-  min-height: 100vh;
 }
 
 .sidebar {
   width: 15%;
-  min-height: 100vh;
   background-color: var(--color-bg-dark-secondary);
   position: sticky;
   top: 0;
-  height: 100vh;
   overflow-y: auto;
   transition: background-color var(--transition-normal);
 }
@@ -761,9 +758,9 @@ p,
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .sidebar {
+  /* .sidebar {
     display: none;
-  }
+  } */
 
   .main-content {
     width: 100%;
