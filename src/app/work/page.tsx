@@ -25,7 +25,7 @@ const Work: React.FC = () => {
       <div className="portfolio-grid">
         {projects.map((project) => (
           <div className="portfolio-card" key={project.id}>
-            <img
+            <Image
               src={project.image}
               alt={`Project ${project.id}`}
               className="portfolio-card__image"
